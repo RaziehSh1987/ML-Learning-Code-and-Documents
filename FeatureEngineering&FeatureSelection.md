@@ -83,6 +83,8 @@ print(df)
 > **Skewness** means the data is not balanced around the center. Log transformation can make the distribution more normal-like.
 
 ---
+<img width="483" height="761" alt="image" src="https://github.com/user-attachments/assets/89dc67a3-ee4f-4f29-9c0c-115f4f29871f" />
+
 
 ## 3. Encoding Categorical Variables
 
@@ -168,6 +170,7 @@ df["rolling_avg_3"] = df["sales"].rolling(window=3).mean()
 
 print(df)
 ```
+<img width="765" height="737" alt="image" src="https://github.com/user-attachments/assets/ca594327-8d21-4962-be02-a2f53cc9a7a9" />
 
 ---
 
